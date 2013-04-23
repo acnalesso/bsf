@@ -1,0 +1,3 @@
+CRITICAL FILES:
+.rspec
+spec/*
