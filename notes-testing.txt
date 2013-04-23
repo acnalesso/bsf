@@ -1,3 +1,11 @@
 CRITICAL FILES:
 .rspec
 spec/requests/*
+Guardfile
+spec/spec_helper.rb
+
+START SPORK:
+bundle exec spork
+
+START GUARD:
+bundle exec guard
