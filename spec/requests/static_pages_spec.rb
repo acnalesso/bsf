@@ -8,6 +8,13 @@ describe "Static pages" do
       visit '/static_pages/home'
       page.should have_content('Bargain Stock Funds')
     end
+    
+    it "should have the title 'Home'" do
+      visit '/static_pages/home'
+      page.should have_selector('title',
+                        :text => "Bargain Stock Funds: Home")
+    end
+    
   end
   
   describe "About page" do
@@ -16,6 +23,14 @@ describe "Static pages" do
       visit '/static_pages/about'
       page.should have_content('About')
     end
+    
+    it "should have the title 'About'" do
+      visit '/static_pages/about'
+      page.should have_selector('title',
+                    :text => "Bargain Stock Funds: About")
+    end
+
+    
   end
 
 end
