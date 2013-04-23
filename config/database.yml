@@ -15,9 +15,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: bsf_development
+  database: pg_bsf
   pool: 5
-  username: bsf
+  username: jhsu
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
