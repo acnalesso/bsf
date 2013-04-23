@@ -41,9 +41,9 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: bsf_test
+  database: pg_bsf
   pool: 5
-  username: bsf
+  username: jhsu
   password:
 
 production:
