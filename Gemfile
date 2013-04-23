@@ -36,3 +36,18 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'execjs'
+gem 'therubyracer'
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'guard-spork'
+  gem 'spork'
+end
+group :test do
+  gem 'capybara', '1.1.2'
+  gem 'rb-inotify'
+  gem 'libnotify'
+end
