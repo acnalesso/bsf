@@ -1,0 +1,2 @@
+CRITICAL FILES FOR SITE LAYOUT:
+app/views/layouts/application.html.erb
