@@ -1,2 +1,11 @@
 CRITICAL FILES FOR SITE LAYOUT:
 app/views/layouts/application.html.erb
+
+HEADER:
+app/views/layouts/_header.html.erb
+
+FOOTER:
+app/views/layouts/_footer.html.erb
+
+SHIM:
+app/views/layouts/_shim.html.erb

@@ -51,3 +51,5 @@ group :test do
   gem 'rb-inotify'
   gem 'libnotify'
 end
+
+gem 'bootstrap-sass'
